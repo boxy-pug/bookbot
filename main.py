@@ -5,10 +5,10 @@ def main():
     letter_count = get_letter_count(text)
     sorted_letter_count = get_sorted_letter_count(letter_count)
 
-    print(f"-- Book report of {book_path} --")
-    print(f"Word count: {word_count}\n")
+    print(f"--- Begin report of {book_path} ---")
+    print(f"Number of words found in the document: {word_count}\n")
     print_letter_count(sorted_letter_count)
-    print("\n-- End of report --")
+    print("\n--- End report ---")
 
 
 def get_word_count(string):
